@@ -1,0 +1,8 @@
+.profile__illustration-overlay {
+    background-color: black;
+    opacity: 0.8;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}

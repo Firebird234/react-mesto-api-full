@@ -1,0 +1,7 @@
+.popup__field_type_link {
+}
+
+::-webkit-input-placeholder {color:#C4C4C4;}
+::-moz-placeholder          {color:#C4C4C4;}/* Firefox 19+ */
+:-moz-placeholder           {color:#C4C4C4;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#C4C4C4;}

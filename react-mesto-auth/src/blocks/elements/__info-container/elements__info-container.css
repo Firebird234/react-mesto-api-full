@@ -1,0 +1,12 @@
+.elements__info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: black;
+}

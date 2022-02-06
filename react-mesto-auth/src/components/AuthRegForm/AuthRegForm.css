@@ -1,0 +1,110 @@
+.authRegForm {
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.authRegForm__field {
+    width: 358px;
+    margin-bottom: 14px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #cccccc;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 40px;
+    color: #cccccc;
+    background-color: #000000;
+}
+
+.authRegForm__title {
+    margin: 0;
+    margin-bottom: 34px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.authRegForm__submit {
+    width: 358px;
+    height: 50px;
+    margin-top: 200px;
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    border: none;
+}
+
+.authRegForm__logLink {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 380px) {
+    .authRegForm__field {
+        max-width: 260px;
+    }
+    .authRegForm__submit {
+        max-width: 260px;
+        max-height: 46px;
+        margin-top: 158px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+    }
+
+    .authRegForm__title {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        margin-bottom: 22px;
+    }
+
+    .authRegForm {
+        padding-top: 40px;
+    }
+
+    .authRegForm__logLink {
+        margin-top: 20px;
+    }
+
+    ::-webkit-input-placeholder {
+        color: black;
+    }
+    ::-moz-placeholder {
+        color: black;
+    } /* Firefox 19+ */
+    :-moz-placeholder {
+        color: black;
+    } /* Firefox 18- */
+    :-ms-input-placeholder {
+        color: black;
+    }
+}

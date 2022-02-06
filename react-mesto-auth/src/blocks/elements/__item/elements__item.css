@@ -1,0 +1,8 @@
+.elements__item {
+    display: block;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    max-height: 360px;
+}

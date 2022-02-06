@@ -1,0 +1,12 @@
+.profile__illustration-wrapper {
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    /* visibility: hidden; */
+    opacity: 0;
+}
+
+.profile__illustration-wrapper:hover {
+    /* visibility: visible; */
+    opacity: 1;
+}

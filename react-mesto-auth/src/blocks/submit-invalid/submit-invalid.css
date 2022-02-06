@@ -1,0 +1,17 @@
+.submit-invalid {
+    opacity: 0.2;
+    background-color: white;
+    color: grey;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.submit-invalid:hover {
+    opacity: 0.2;
+    background-color: white;
+    color: grey;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 2px;
+}

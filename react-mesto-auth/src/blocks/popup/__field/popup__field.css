@@ -1,0 +1,26 @@
+.popup__field {
+    width: 358px;
+    margin-bottom: 14px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 40px;
+    color: #000000;
+}
+
+
+@media screen and (max-width: 520px) {
+    .popup__field { 
+            width: 238px;
+            margin-bottom: 16px;
+            line-height: 35px;
+    }
+}
+
+::-webkit-input-placeholder {color:black;}
+::-moz-placeholder          {color:black;}/* Firefox 19+ */
+:-moz-placeholder           {color:black;}/* Firefox 18- */
+:-ms-input-placeholder      {color:black;}
