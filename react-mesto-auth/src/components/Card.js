@@ -11,6 +11,7 @@ class Card extends React.Component {
   handleClick = () => {
     this.props.onImage(this.props.card);
     this.props.onImagePopup();
+    console.log(this.props.card);
   };
 
   handleLikeClick = () => {
@@ -52,7 +53,7 @@ class Card extends React.Component {
         <button
           onClick={this.handleDeleteClick}
           className={`elements__delete ${
-            this.props.card.owner._id !== this.context._id &&
+            this.props.card.owner !== this.context._id &&
             "elements__delete_hidden"
           }`}
         ></button>
