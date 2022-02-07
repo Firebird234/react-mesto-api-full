@@ -1,3 +1,7 @@
+require('dotenv').config();
+
+const { JWT_SECRET } = process.env;
+
 const jwt = require('jsonwebtoken');
 const { Authorization } = require('../errors/Authorization');
 
@@ -6,10 +10,10 @@ module.exports.auth = (req, res, next) => {
   if (!authorization) {
     return next(new Authorization());
   }
-  const token = authorization.replace('Bearer', '');
+  const token = authorization.replace('Bearer ', '');
   let payload;
   try {
-    payload = jwt.verify(token, 'abrakadabra,kurwa');
+    payload = jwt.verify(token, JWT_SECRET);
   } catch (err) {
     return next(new Authorization());
   }
