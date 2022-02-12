@@ -39,8 +39,8 @@
 // };
 
 // const allowedCors = [
-//   'https://best-site.ever.nomoredomains.work',
-//   'http://best-site.ever.nomoredomains.work',
+//   'https://wazzuuuuup.nomoredomains.work',
+//   'http://wazzuuuuup.nomoredomains.work',
 //   'https://localhost:3000',
 //   'http://localhost:3000',
 //   'http://localhost:3001',

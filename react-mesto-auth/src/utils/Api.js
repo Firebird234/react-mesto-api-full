@@ -170,10 +170,18 @@ export class Api {
   //https://api.best-site.ever.nomoredomains.work
 }
 
-const sendRequest = new Api("http://api.best-site.ever.nomoredomains.work", {
-  authorization: `Bearer${localStorage.getItem("token")}`,
+const sendRequest = new Api("https://api.wazzuuuuup.nomoredomains.work", {
+  authorization: `Bearer ${localStorage.getItem("token")}`,
   "Content-Type": "application/json",
   credentials: "include",
 });
 
 export default sendRequest;
+
+// const sendRequest = new Api("http://api.best-site.ever.nomoredomains.work", {
+//   authorization: `Bearer${localStorage.getItem("token")}`,
+//   "Content-Type": "application/json",
+//   credentials: "include",
+// });
+
+// export default sendRequest;

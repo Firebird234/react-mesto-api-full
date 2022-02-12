@@ -65,7 +65,7 @@ export class Auth {
       method: "GET",
       headers: {
         ...this._headers,
-        Authorization: `Bearer${token}`,
+        Authorization: `Bearer ${token}`,
       },
     })
       .then((res) => {
@@ -75,7 +75,14 @@ export class Auth {
   }
 }
 // https://api.best-site.ever.nomoredomains.work
-const sendAuth = new Auth("http://api.best-site.ever.nomoredomains.work", {
+// const sendAuth = new Auth("http://api.best-site.ever.nomoredomains.work", {
+//   // authorization: `Bearer${localStorage.getItem("token")}`,
+//   "Content-Type": "application/json",
+// });
+
+// export default sendAuth;
+
+const sendAuth = new Auth("https://api.wazzuuuuup.nomoredomains.work", {
   // authorization: `Bearer${localStorage.getItem("token")}`,
   "Content-Type": "application/json",
 });
